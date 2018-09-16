@@ -15,7 +15,7 @@ public class CommonAPI {
     public void setUp(){
 
         driver = new FirefoxDriver();
-        System.setProperty("webdriver.gecko.driver", "/Users/luiscabrera/Documents/Framework/Generic/BrowserDriver/geckodriver 2");
+        System.setProperty("webdriver.gecko.driver 2", "/Users/luiscabrera/Documents/Framework/Generic/BrowserDriver/geckodriver 2");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://automationpractice.com/index.php");
     }
