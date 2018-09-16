@@ -11,7 +11,7 @@ public class CommonAPI {
 
     public WebDriver driver = null;
 
-@BeforeMethod
+    @BeforeMethod
     public void setUp(){
 
         driver = new FirefoxDriver();
@@ -23,10 +23,10 @@ public class CommonAPI {
 
 
     @AfterMethod
-public void clean(){
+    public void clean(){
 
         driver.close();
-}
+    }
 
 
 }
